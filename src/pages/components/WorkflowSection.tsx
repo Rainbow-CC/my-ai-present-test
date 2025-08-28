@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ZoomableImage from './ZoomableImage';
 
 const WorkflowSection = () => {
     const [step, setStep] = useState(0);
@@ -52,6 +53,11 @@ const WorkflowSection = () => {
                 <div className="text-center mt-8">
                     <button onClick={handleNextStep} className="btn-primary font-bold py-4 px-10 rounded-full text-xl">{buttonText[step]}</button>
                 </div>
+            </div>
+
+            <div className="max-w-4xl mx-auto mt-8">
+                <ZoomableImage src="/knowledge_base.png" alt="Knowledge Base Diagram" />
+                <ZoomableImage src="/workflow.png" alt="Workflow Diagram" />
             </div>
         </section>
     );
