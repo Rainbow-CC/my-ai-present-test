@@ -50,7 +50,7 @@ const SideNav: React.FC<SideNavProps> = ({ activeTab, setActiveTab }) => {
     return (
         <aside className="w-60 bg-gray-800 text-white flex-shrink-0 flex flex-col p-4">
             <div className="flex items-center justify-center py-4 mb-4 border-b border-gray-700">
-                <img src="/logo.jpg" alt="Logo" className="h-8 w-8 mr-2" />
+                <img src="logo.jpg" alt="Logo" className="h-8 w-8 mr-2" />
                 <h1 className="text-lg font-bold"><span className="text-blue-400">AI</span>共创平台</h1>
             </div>
             <nav className="flex-1">

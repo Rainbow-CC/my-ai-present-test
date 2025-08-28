@@ -56,8 +56,8 @@ const WorkflowSection = () => {
             </div>
 
             <div className="max-w-4xl mx-auto mt-8">
-                <ZoomableImage src="/knowledge_base.png" alt="Knowledge Base Diagram" />
-                <ZoomableImage src="/workflow.png" alt="Workflow Diagram" />
+                <ZoomableImage src="knowledge_base.png" alt="Knowledge Base Diagram" />
+                <ZoomableImage src="workflow.png" alt="Workflow Diagram" />
             </div>
         </section>
     );
